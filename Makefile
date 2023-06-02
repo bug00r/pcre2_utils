@@ -44,7 +44,7 @@ CFLAGS+=-std=c11 -Wpedantic -Wall -Wextra
 
 _SRC_FILES+=regex_utils
 
-LIBNAME:=regex_utils
+LIBNAME:=pcre2_utils
 LIBEXT:=a
 LIB:=lib$(LIBNAME).$(LIBEXT)
 LIB_TARGET:=$(BUILDPATH)$(LIB)
