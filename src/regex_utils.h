@@ -14,4 +14,4 @@
 bool regex_match(const unsigned char *_pattern, const unsigned char *_text);
 bool regex_not_blank(const unsigned char *_text);
 bool regex_range_match(const unsigned char *range, const unsigned char *value);
-#endif
+#endif 
