@@ -62,7 +62,7 @@ CFLAGS+=-DPCRE2_STATIC
 
 USED_LIBS=$(patsubst %,-l%, $(REGEX_LIBS))
 
-LDFLAGS+=-static $(USED_LIBS)
+LDFLAGS+=$(USED_LIBS)
 
 all: mkbuilddir $(LIB_TARGET)
 
